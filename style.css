@@ -1,5 +1,6 @@
 body {
     margin: 0 ;
+    font-family: 'Roboto', sans-serif;
 }
 
 .container {
@@ -8,9 +9,27 @@ body {
 
 aside {
     width: 30%;
-    background-color: blue;
+    background-color: #335384;
 }
 
 main {
     width: 70%;
+    margin: 20px ;
+}
+
+h1 {
+    font-size: xxx-large;
+    color: #335384;
+}
+
+h2 {
+    color: #69c8f1;
+}
+
+h3 {
+    color: #69c8f1;
+}
+
+footer {
+    color: dimgray;
 }
