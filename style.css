@@ -12,6 +12,15 @@ aside {
     background-color: #335384;
 }
 
+.photo {
+    margin: 35px;
+    width: 180px;
+    height: 180px;
+    background: url("fotka.png");
+    background-size: cover;
+    border-radius: 50%;
+}
+
 main {
     width: 70%;
     margin: 20px ;
