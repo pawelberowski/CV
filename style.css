@@ -12,6 +12,21 @@ aside {
     background-color: #335384;
 }
 
+.sidebar {
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.sidebar h4 {
+    margin-left: 10px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
 .photo {
     margin: 35px;
     width: 180px;
