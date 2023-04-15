@@ -22,16 +22,45 @@ aside {
     margin-left: 10px;
 }
 
+.frame {
+    display: flex;
+    flex-direction: column;
+}
+
+.frame > * {
+    display: flex;
+    align-items: center;
+    height: 25px;
+    width: 100%;
+    margin: 5px;
+}
+
+.frame span {
+    margin: 5px;
+}
+
+.frame img {
+    height: 25px;
+    width: 25px;
+}
+
+.frame p{
+    display: flex;
+    margin: 0;
+}
+
 a {
     color: white;
     text-decoration: none;
+    display: flex;
+    align-items: center;
 }
 
 .photo {
     margin: 35px;
     width: 180px;
     height: 180px;
-    background: url("fotka.png");
+    background: url("fotka.jpg");
     background-size: cover;
     border-radius: 50%;
 }
