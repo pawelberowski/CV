@@ -13,13 +13,16 @@ body {
 
 aside {
     width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     background-color: #335384;
 }
 
 .sidebar {
     color: white;
-    display: flex;
-    flex-direction: column;
+
 }
 
 .sidebar h4 {
@@ -79,11 +82,7 @@ h1 {
     color: #335384;
 }
 
-h2 {
-    color: #69c8f1;
-}
-
-h3 {
+h2, h3{
     color: #69c8f1;
 }
 
