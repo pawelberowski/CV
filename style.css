@@ -60,6 +60,10 @@ a {
     display: flex;
 }
 
+a:hover {
+    color: greenyellow;
+}
+
 .photo {
     width: 180px;
     height: 180px;
