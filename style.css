@@ -86,3 +86,12 @@ h3 {
 footer {
     color: dimgray;
 }
+
+@media (max-width: 900px) {
+    .container {
+        flex-direction: column-reverse;
+    }
+    aside, main {
+        width: 100%;
+    }
+}
