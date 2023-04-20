@@ -22,7 +22,6 @@ aside {
 
 .sidebar {
     color: white;
-
 }
 
 .sidebar h4 {
@@ -47,24 +46,21 @@ aside {
 }
 
 .frame img {
-    height: 25px;
-    width: 25px;
+    height: 30px;
+    width: 30px;
 }
 
 .frame p{
     display: flex;
-    margin: 0;
 }
 
 a {
     color: white;
     text-decoration: none;
     display: flex;
-    align-items: center;
 }
 
 .photo {
-    margin: 35px;
     width: 180px;
     height: 180px;
     background: url("fotka.jpg");
@@ -96,5 +92,8 @@ footer {
     }
     aside, main {
         width: 100%;
+    }
+    .photo {
+        margin-top: 25px;
     }
 }
