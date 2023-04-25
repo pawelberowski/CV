@@ -111,3 +111,13 @@ footer {
         height: 100vh;
     }
 }
+
+@media (min-width: 1024px) {
+    body {
+        display: flex;
+        justify-content: center;
+    }
+    .container {
+        width: 1024px;
+    }
+}
