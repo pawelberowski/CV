@@ -67,6 +67,7 @@ a:hover {
 .photo {
     width: 180px;
     height: 180px;
+    margin-top: 25px;
     background: url("images/photo.jpg");
     background-size: cover;
     border-radius: 50%;
@@ -97,7 +98,5 @@ footer {
     aside, main {
         width: 100%;
     }
-    .photo {
-        margin-top: 25px;
-    }
 }
+
