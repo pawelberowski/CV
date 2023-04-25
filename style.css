@@ -100,3 +100,14 @@ footer {
     }
 }
 
+@media (min-width: 900px) {
+    html {
+        height: 100%;
+    }
+    body {
+        height: 100%;
+    }
+    .container {
+        height: 100%;
+    }
+}
