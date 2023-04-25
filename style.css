@@ -15,7 +15,7 @@ aside {
     width: 30%;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     background-color: #335384;
 }
@@ -100,14 +100,14 @@ footer {
     }
 }
 
-@media (min-width: 900px) {
+@media (min-width: 901px) and (min-height: 900px) {
     html {
-        height: 100%;
+        height: 100vh;
     }
     body {
-        height: 100%;
+        height: 100vh;
     }
     .container {
-        height: 100%;
+        height: 100vh;
     }
 }
