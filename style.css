@@ -67,7 +67,7 @@ a:hover {
 .photo {
     width: 180px;
     height: 180px;
-    background: url("fotka.jpg");
+    background: url("images/photo.jpg");
     background-size: cover;
     border-radius: 50%;
 }
